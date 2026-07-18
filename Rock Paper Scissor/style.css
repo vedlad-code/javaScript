@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background-color: #2d3142;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game {
+  margin-top: 30px;
+  background-color: #4f5d75;
+  height: 870px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+}
+.displayScreen {
+  background-color: #ffffff;
+  height: 250px;
+  width: 800px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.scoreBox {
+  height: 200px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 60px;
+  justify-content: flex-end;
+  align-items: center;
+  color: #ef8354;
+}
+
+.btnBox {
+  /* background-color: #f7c1aa; */
+  height: 250px;
+  width: 855px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 15px;
+}
+
+.btn {
+  height: 135px;
+  width: 240px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: outline 0.15s ease;
+}
+
+.btn:hover {
+  outline: 4px solid #ef8354;
+  outline-offset: 4px;
+}
+
+img {
+  height: auto;
+  width: 240px;
+  border-radius: 50px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 50px;
+  margin-top: 15px;
+}
+
+#youCounter {
+  color: #6fcf97;
+}
+
+#compCounter {
+  color: #eb5757;
+}
+
+#drawCounter {
+  color: #bdbdbd;
+}
+
+#youLabel {
+  color: #6fcf97;
+}
+
+#compLabel {
+  color: #eb5757;
+}
+
+#drawLabel {
+  color: #bdbdbd;
+}
+
+.textContent {
+  display: flex;
+  width: 700px;
+  justify-content: space-around;
+  font-size: 30px;
+  color: #ef8354;
+}
